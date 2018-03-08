@@ -1,6 +1,25 @@
 .row {
-    background-color: black;    
-    color: white;
-    height: 200px;
-    margin: 2.1875rem;
+        
+        
+        &--3 {
+        background-color: ;    
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+         & img {
+             width: 15.625rem;
+             height: 15.625rem;  
+             margin: 0 25px;
+        }
+            
+            
+            & img:last-child {
+                margin-right:0px;  
+            }
+    }
+    
+    
+   
+
 }

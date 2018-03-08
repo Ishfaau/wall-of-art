@@ -1,0 +1,37 @@
+.main-content {
+    @mixin clearfix;
+    
+    
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        background-color: ;
+    }
+    
+    ul li {
+        margin: 1.5rem 0;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 0.4rem;
+        max-width: 10.25rem;
+        &:hover{cursor:pointer}
+        
+    }
+    
+    &__side-menu {
+        float: left;
+        width: 15%;
+    }
+    
+    &__content-area {
+        background-color:rgba(0,0,0,.1);
+        float: left;
+        width: 85%;
+        margin-top: 1.5rem;
+    }
+    
+    
+}

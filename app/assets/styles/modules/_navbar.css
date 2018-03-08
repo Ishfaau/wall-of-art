@@ -1,0 +1,33 @@
+.navbar {
+    background-color: ;
+    
+
+     ul {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+     
+    
+     ul li {
+        margin: 1.5rem 0;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        padding: 5px 15px;
+        margin-right: 3.125rem;
+        border-radius: 0.4rem;
+        width: 7.25rem;
+        &:hover{cursor:pointer}
+    }
+    
+    
+     ul li:nth-child(5), ul li:nth-child(6) {
+        float: right;
+        margin-right: 2rem;
+    }
+    
+    
+}
