@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: aliceblue;
+}
+
+a {
+    
+    color: white;
+}
